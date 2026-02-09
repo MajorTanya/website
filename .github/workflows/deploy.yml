@@ -17,3 +17,4 @@ jobs:
                 source: "./src"
                 target: "/var/www/${{ secrets.SITE }}/html"
                 tar_tmp_path: "/tmp/"
+                strip_components: 2
